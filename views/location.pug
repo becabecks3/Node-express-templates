@@ -1,11 +1,12 @@
 doctype html
 html   
    head
+      link(rel="stylesheet", href="style.css")
       title Hello Pug
    body
       include ./header.pug
       h1 You can find me here:
-      p.greetings#people Stroke St 666
+      p.location Stroke St 666
       img(src=img)
       p Send a letter and some food!
       include ./footer.pug

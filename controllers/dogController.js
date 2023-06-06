@@ -11,6 +11,11 @@ const getPug = async (req, res) => {
     }
 }
 
+const getLocalPug = (res) => {
+    res.render('about.pug', {img2: "./assets/images/nutria2.jpg" });
+}
+
 module.exports = {
-    getPug
+    getPug,
+    getLocalPug
 }

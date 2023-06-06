@@ -5,10 +5,10 @@ const dogController = require('../controllers/dogController');
 
 
 dogRoutes.get('/:mission', dogController.getPug);
-// dogController.get('/:about', dogController.get);
-// dogController.get('/:location', dogController.get);
-// dogController.get('/:mission', dogController.get);
-// dogController.get('/:contact', dogController.get);
+dogRoutes.get('/:about', dogController.getLocalPug);
+dogRoutes.get('/:location', dogController.getPug);
+dogRoutes.get('/:mission', dogController.getLocalPug);
+dogRoutes.get('/:contact', dogController.getPug);
 
 
 module.exports = dogRoutes;

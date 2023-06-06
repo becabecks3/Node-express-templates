@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+  }
+  body{
+    font-size: 5rem;
+  }
+  
+  h1{
+    font-size: 12rem;
+  }
+  main{
+    display: flex;
+    
+    align-items: center;
+  }
+  .navBar {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+    height: 8rem;
+    background-color: rgb(181, 238, 238);
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+  .contact-ul {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  .mission {
+    font-size: 8rem;
+  }
+  img {
+    max-width: 30rem;
+    border-radius: 0.8rem;
+  }
+  footer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(42, 41, 41);
+    color: aliceblue;
+    font-size: 5rem;
+    min-height: 12rem;
+  }

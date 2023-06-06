@@ -23,10 +23,7 @@ app.set('views', './views');
 
 
 //Rutas
-app.use('/', dogRoutes); 
-app.use('/about', dogRoutes); 
-app.use('/location', dogRoutes); 
-app.use('/mission', dogRoutes); 
-app.use('/contact', dogRoutes); 
+app.use('/pug', dogRoutes); 
+
 
 app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
